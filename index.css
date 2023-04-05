@@ -155,7 +155,6 @@ body {
   }
 
   .mini-parent {
-    height: 509px;
     width: 635px;
     background: #121725;
     display: flex;
@@ -278,7 +277,7 @@ body {
 }
 
 .mini-parent {
-  
+  margin-top: 22px;
 }
 
 
