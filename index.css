@@ -1,0 +1,285 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Chivo", sans-serif;
+  width: 100%;
+  height: 100%;
+  background-image: url(./assets/mobile/image-host.jpg);
+  background-repeat: no-repeat;
+}
+
+.parent {
+  background: rgba(18, 23, 37, 0.9);
+  height: 100vh;
+}
+
+.logo-div {
+  display: flex;
+  justify-content: center;
+}
+
+.logo-img {
+  margin-top: 62px;
+}
+
+.publish-text {
+  color: white;
+  height: 76px;
+  width: 327px;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 38px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.podcast {
+  color: #54e6af;
+  height: 76px;
+  width: 327px;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 38px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.upload-text {
+  color: #c2cbe5;
+  height: 100px;
+  width: 327px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+}
+
+.icons-div {
+  display: flex;
+  justify-content: center;
+}
+
+.publish-upload-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 57px 24px 37.8px 24px;
+  gap: 16px;
+  align-items: center;
+}
+
+.spotify {
+  height: 16.94768524169922px;
+  width: 55.942596435546875px;
+  margin-right: 23px;
+}
+
+.apple-podcast {
+  height: 17px;
+  width: 45px;
+  margin-right: 25px;
+}
+
+.google-podcasts {
+  height: 11px;
+  width: 73px;
+  margin-right: 16px;
+  margin-top: 3px;
+}
+
+.pocket-casts {
+  height: 15px;
+  width: 77px;
+}
+
+.email {
+  height: 46px;
+  width: 327px;
+  background: #2c344b;
+  border-radius: 28px;
+  border: none;
+  padding: 9px 0px 9px 32px;
+}
+
+.email-request-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 48px;
+}
+
+.request-text {
+  height: 46px;
+  width: 326px;
+  background: #54e6af;
+  box-shadow: 0px 25px 20px -20px rgba(84, 230, 175, 0.497913);
+  border-radius: 28px;
+  margin-top: 16px;
+  border: none;
+}
+
+.warning {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #fb3e3e;
+  display: none;
+  margin-top: 8px;
+  margin-left: 40px;
+}
+
+.combined-img {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    background-image: url(./assets/tablet/image-host.jpg);
+    background-position-x: right;
+    background-color: rgba(18, 23, 37, 1);
+  }
+
+  .parent {
+    padding: 50px 94px 257px 39px;
+    background: none;
+  }
+
+  .logo-div {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .mini-parent {
+    height: 509px;
+    width: 635px;
+    background: #121725;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 92px;
+  }
+
+  .podcast {
+    height: 112px;
+    width: 635px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+  }
+
+  .publish-text {
+    height: 112px;
+    width: 635px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    margin-top: 93px;
+    text-align: start;
+  }
+
+  .publish-upload-div {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .upload-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    height: 84px;
+    width: 445px;
+    text-align: start;
+    margin-top: 31px;
+  }
+
+  .icons-email-request-divs {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .icons-div {
+    margin-top: 64px;
+    order: 1;
+  }
+
+  .spotify {
+    height: 28.910755157470703px;
+    width: 95.90159606933594px;
+  }
+
+  .apple-podcast {
+    height: 29px;
+    width: 78px;
+  }
+
+  .google-podcasts {
+    height: 18px;
+    width: 125px;
+  }
+
+  .pocket-casts {
+    height: 26px;
+    width: 129px;
+  }
+
+  .email-request-div {
+    height: 56px;
+    width: 427px;
+    border-radius: 28px;
+    background: #2c344b;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .request-text {
+    margin-top: 0;
+    height: 46px;
+    width: 162px;
+    border-radius: 28px;
+  }
+
+  .combined-img {
+    display: block;
+    height: 104px;
+    width: 232px;
+    position: absolute;
+    margin-top: 660px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+
+  body {
+    background-image: url(./assets/desktop/image-host.jpg);
+    background-position-y:center;
+  }
+
+  .parent {
+    padding: 102px 0px 130px 165px;
+  }
+
+
+.combined-img {
+  margin-left: 1070px;
+  margin-top: 410px;
+  display: block;
+  
+}
+
+.request-text {
+  cursor: pointer;
+}
+
+.mini-parent {
+  
+}
+
+
+}
